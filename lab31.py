@@ -151,7 +151,7 @@ class MainWindow(QMainWindow):
         if event.key() == Qt.Key.Key_Delete:
             self._canvas.delete_selected()
             event.accept()
-            return
+            return 
         super().keyPressEvent(event)
 
 
