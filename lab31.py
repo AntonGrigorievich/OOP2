@@ -40,7 +40,7 @@ class CCircle:
 
 class CircleStorage:
     def __init__(self) -> None:
-        self.__items: list[CCircle] = []
+        self.__items: list[CCircle] = [] 
 
     def add(self, circle: CCircle) -> None:
         self.__items.append(circle)
